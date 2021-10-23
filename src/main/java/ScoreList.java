@@ -77,10 +77,10 @@ public class ScoreList {
     }
 
     public void print(){
-        ScoreNode node = head;
+        ScoreNode node = this.getHead();
         while (node != null)
         {
-            System.out.print(node.getName()+" " + node.getScore());
+            System.out.print(node.getName()+ " " + node.getScore()+ "\n");
             node = node.getNextNode();
         }
     }

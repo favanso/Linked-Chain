@@ -11,15 +11,14 @@ public class ScoreDemo {
 
     public static void main(String[] args) throws FileNotFoundException {
         ScoreList list = new ScoreList();
-        ScoreNode head = new ScoreNode(null, null);
-        list.
-        head = new ScoreNode("fe", 2);
+        //ScoreNode head = new ScoreNode(null, 0);
+        list.setHead(new ScoreNode("fe", 2));
         ScoreNode second = new ScoreNode("Carlos", 5);
         ScoreNode third = new ScoreNode("Jose", 10);
 
-        head.setNextNode(second);
+        list.getHead().setNextNode(second);
         second.setNextNode(third);
-        System.out.println(list.getHead());
+        //System.out.println(list.getHead());
         list.print();
 
 
