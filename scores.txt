@@ -1,0 +1,5 @@
+Dan 220
+Fernando 175
+Bob 160
+Samantha 100
+Nathan 1000
